@@ -130,7 +130,7 @@ void ImageForm::resizeEvent(QResizeEvent *event)
 
 void ImageForm::on_openFileBtn_clicked()
 {
-    QString filePath = QFileDialog::getOpenFileName(this, tr("Open Image"), QString(), tr("Image Files (*.png *.jpg *.bmp)"));
+    QString filePath = QFileDialog::getOpenFileName(this, tr("Open Image"), QString(), tr("Image Files (*.png *.jpg *.jpeg *.bmp)"));
     if (!filePath.isNull())
     {
         ui->filePathLbl->setText(filePath);
