@@ -1,4 +1,4 @@
-# qt-image-processing
+# Image Processing Qt OpenCV
 
 This is a Image Processing Demo Application developed using Qt and OpenCV.
 
